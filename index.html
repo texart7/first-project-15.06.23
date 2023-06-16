@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learn HTML</title>
+    <style>
+      h2 {
+        color: green;
+      }
+      #uniq {
+        color: blue;
+      }
+    </style>
   </head>
   <body>
     <!-- header+main+footer  -->
@@ -27,7 +35,7 @@
     <main>
       <!-- article#article$*3>h2{title for article $}+p*3>lorem20  -->
       <article id="article1">
-        <h2>title for article 1</h2>
+        <h2 style="color: aqua">title for article 1</h2>
         <p>
           Lorem ipsum dolor sit <del>amet consectetur</del> amet
           <ins>consectetur adipisicing elit</ins>. Corrupti et deserunt a est
@@ -46,7 +54,7 @@
         </p>
       </article>
       <article id="article2">
-        <h2>title for article 2</h2>
+        <h2 id="uniq">title for article 2</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
           provident eius architecto dolor iste, suscipit necessitatibus id
