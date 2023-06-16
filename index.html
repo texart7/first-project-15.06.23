@@ -4,21 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learn HTML</title>
-    <style>
-      h2 {
-        color: green;
-      }
-      #uniq {
-        color: blue;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <!-- header+main+footer  -->
     <header>
+      <h1><a href="#">logo</a></h1>
       <!-- nav>ul>li*6>a{link $}  -->
       <nav>
         <ul>
+          <!-- li>a[href="./../index.html"]>{home}  -->
           <li><a href="#">home</a></li>
           <li><a href="./pages/about-us.html">about us</a></li>
           <li><a href="https://www.w3.org/" target="_blank">w3.org</a></li>
@@ -26,67 +26,43 @@
           <li>
             <a href="https://validator.w3.org/" target="_blank">validator</a>
           </li>
-          <li><a href="#article1">article 1</a></li>
-          <li><a href="#article2">article 2</a></li>
-          <li><a href="#article3">article 3</a></li>
+          <li><a href="./../index.html#article1">article 1</a></li>
+          <li><a href="./../index.html#article2">article 2</a></li>
+          <li><a href="./../index.html#article3">article 3</a></li>
         </ul>
       </nav>
     </header>
+    <h1>Title Home</h1>
     <main>
-      <!-- article#article$*3>h2{title for article $}+p*3>lorem20  -->
-      <article id="article1">
-        <h2 style="color: aqua">title for article 1</h2>
-        <p>
-          Lorem ipsum dolor sit <del>amet consectetur</del> amet
-          <ins>consectetur adipisicing elit</ins>. Corrupti et deserunt a est
-          aut accusantium ipsum distinctio qui tenetur sunt.
-        </p>
-        <p>
-          Nemo aperiam
-          <a href="#article3">nobis in accusantium ea quia consequatu</a> r
-          doloremque neque ducimus dolore non dignissimos facere atque,
-          consectetur eius perferendis laboriosam.
-        </p>
-        <p>
-          Assumenda doloribus facilis ad reprehenderit. Quae error ea
-          reiciendis? Laborum esse deserunt accusantium quo cum non est, velit
-          perspiciatis explicabo.
-        </p>
-      </article>
-      <article id="article2">
-        <h2 id="uniq">title for article 2</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
-          provident eius architecto dolor iste, suscipit necessitatibus id
-          quibusdam ad dolorum.
-        </p>
-        <p>
-          Vel odit reiciendis mollitia nostrum sequi ipsum voluptate eos, harum,
-          maxime pariatur sapiente cum unde ducimus fugit aspernatur, explicabo
-          voluptatum!
-        </p>
-        <p>
-          Ipsa assumenda quisquam porro, commodi deserunt ipsum fugit numquam
-          expedita enim reiciendis sequi praesentium corrupti quod doloremque
-          autem rerum saepe.
-        </p>
-      </article>
-      <article id="article3">
-        <h2>title for article 3</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod maxime
-          nemo vero. Aperiam quis fuga quia explicabo! Sequi, earum illum!
-        </p>
-        <p>
-          Nemo rem repellendus mollitia totam odit vel eveniet et. Quidem
-          laboriosam explicabo nam eveniet in totam at, nihil numquam nulla!
-        </p>
-        <p>
-          Repudiandae praesentium omnis obcaecati dicta soluta, veritatis
-          repellat suscipit numquam deserunt corrupti, sed enim? Culpa sunt
-          velit a iusto doloremque.
-        </p>
-      </article>
+      <section>
+        <h1>Title Home</h1>
+        <article id="article1">
+          <h2>Subtitle 1</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum,
+            tempore nemo atque quos asperiores voluptate at esse culpa facilis
+            molestias veritatis facere et dignissimos optio.
+          </p>
+          <p>
+            Unde illo ratione doloribus neque vitae dolorem pariatur tenetur
+            ipsa exercitationem, aliquam sunt minus quidem, quae praesentium.
+            Doloremque ipsa ea optio possimus eligendi distinctio ad.
+          </p>
+        </article>
+        <article id="article2">
+          <h2>Subtitle 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vel
+            esse earum eligendi praesentium libero fugit, mollitia ex commodi
+            reprehenderit voluptatum ea animi iure! Quia.
+          </p>
+          <p>
+            Minus odit alias, architecto totam recusandae ab obcaecati itaque
+            quos minima iste provident deleniti harum officia delectus explicabo
+            eligendi id! Ipsam non pariatur iusto perferendis.
+          </p>
+        </article>
+      </section>
     </main>
     <footer>&copy; 2023 Artem</footer>
   </body>
