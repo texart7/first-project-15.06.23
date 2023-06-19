@@ -18,3 +18,14 @@ a {
 .main-article__content {
   font-size: initial;
 }
+img {
+  /* height: 100px  */
+  box-sizing: border-box;
+  width: 300px;
+  border: 3px solid red;
+  border-bottom: none;
+  border-left-style: dotted;
+  padding: 10px;
+  margin: 50px;
+  background-color: aqua;
+}
