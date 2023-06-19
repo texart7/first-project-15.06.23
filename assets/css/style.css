@@ -1,8 +1,7 @@
 body {
   background-color: gray;
   font-size: 24px;
-  color: yellow;
-}
+ }
 a {
   color: inherit;
 }
@@ -28,4 +27,17 @@ img {
   padding: 10px;
   margin: 50px;
   background-color: aqua;
+}
+span{
+display: inline-block;
+  border: 6px solid blue;
+  padding: 10px;
+  margin: 30px;
+}
+div{
+  box-sizing: border-box;
+  width: 300px;
+  border: 6px solid green;
+  padding: 10px;
+  margin: 30px auto;
 }
