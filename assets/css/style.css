@@ -1,29 +1,20 @@
-body{
-    background-color: aquamarine;
+body {
+  background-color: gray;
+  font-size: 24px;
+  color: yellow;
 }
-h1, h2{
-    background-color: azure;
-    font-size: 20px;
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
+a {
+  color: inherit;
 }
-.logo{
-    font-family: 'Caveat', cursive;
-    font-size: 3em;
+.border {
+  border: 3px double pink;
 }
-a{
-    /* text-decoration: dotted red 2px underline; */
-    text-decoration: none;
-    background-color: gray;
-    border-radius: 5px;
+.main-article {
+  font-size: 1.5em;
 }
-p{
-    font-size: 24px;
-    line-height: 1em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-indent: 1.5em;
-    text-align: justify;
+.main-article__heading {
+  font-size: 1.5em;
 }
-em{
-    background-color: blueviolet;
+.main-article__content {
+  font-size: initial;
 }
